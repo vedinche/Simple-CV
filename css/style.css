@@ -1,0 +1,42 @@
+
+.code-wrap {
+	width: 400px;
+	background: rgba(0, 0, 0, .8);
+	font-size: 11px;
+}
+
+.section-code {
+	display: block;
+}
+
+.purple {
+	color: #ac58fa;
+}
+
+.blue {
+	color:#58acfa;
+}
+
+.white {
+	color: rgba(255, 255, 255, .8);
+}
+
+.yellow {
+	color: yellow
+}
+
+.cyan {
+	color: #00ffff;
+}
+
+.green {
+	color: #008000;
+}
+
+.orange {
+	color: #fe9a2e
+}
+
+.crimson {
+	color: #fa5858
+}
