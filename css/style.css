@@ -38,7 +38,7 @@ img {
 
 body {
 	font-family: 'Authentics', sans-serif;
-	font-weight: 400;
+	color: #101010;
 }
 
 .flex {
@@ -53,7 +53,7 @@ body {
 .wrap {
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 30px 60px 10px 60px;
+	padding: 40px 60px 10px 60px;
 	background: #fff url('../img/Paper.png');
 }
 
@@ -93,12 +93,21 @@ body {
 
 .header-links {
 	flex-direction: column;
-	font-size: 10px;
+	font-size: 11px;
 	line-height: 1.2em;
 }
 
 .header-link:not(:last-child) {
 	margin-bottom: 8px;
+}
+
+.descr {
+	font-size: 10px;
+	line-height: 1.2em;
+}
+
+.header-descr {
+	font-style: italic;
 }
 /* header end */
 .main {
@@ -109,12 +118,24 @@ body {
 	margin-right: 35px;
 }
 
+.section-title {
+	font-size: 14px;
+	line-height: 1.2em;
+	font-weight: 600;
+}
+
 .left-section-title {
 	margin-bottom: 18px;
 }
 
+.left-section-subtitle {
+	font-size: 12px;
+	line-height: 1.2em;
+	font-weight: 400;
+}
+
 .left-section-block:not(:last-child) {
-	margin-bottom: 54px;
+	margin-bottom: 40px;
 }
 
 .left-section-subtitle,
@@ -125,7 +146,7 @@ body {
 .code-wrap {
 	width: 350px;
 	background: rgba(0, 0, 0, .75);
-	font-size: 9px;
+	font-size: .53em;
 	padding: 16px;
 }
 
@@ -177,6 +198,18 @@ body {
 .right-section-subtitle,
 .right-section-descr {
 	margin-bottom: 6px;
+}
+
+.section-date {
+	font-size: 9px;
+	line-height: 1.2em;
+	letter-spacing: -0.2px;
+}
+
+.right-section-subtitle {
+	font-size: 12px;
+	line-height: 1.2em;
+	font-weight: 600;	
 }
 
 .right-section-descr:last-child {
